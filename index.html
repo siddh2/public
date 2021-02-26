@@ -1,3 +1,17 @@
+<?php 
+$db_host = "45.113.122.52";
+$db_user = "bhanjmca_iBox";
+$db_pass = "Kolkata123";
+$db_name = "bhanjmca_iBox";
+$link = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+else{
+echo "Hello World!";
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
