@@ -15,7 +15,7 @@ $data = "Hello";
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Siddharth Gautam <?php echo $data?></title>
+	<title>Siddharth Gautam <?php echo $data?><?php echo "Hello";?></title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
